@@ -12,10 +12,11 @@
     transition: all 2.2s 0.1s linear;
     z-index: 1;
   }
-  figure img:hover { z-index: 0; opacity: 0; }
+  figure > img:hover { z-index: 0; opacity: 0; }
   figure img + img {
     z-index: 2;
   }
+  figure > img + img:hover { z-index: 0; opacity: 0; }
   figure img + img + img {
     z-index: 1;
   }
@@ -24,16 +25,18 @@
 <figure id="gutersloh">
   <img src="gutersloh.jpg">
   <!-- <img src="//api.artsmia.org/images/10219/1000/medium.jpg"> -->
+  <img src="0044_00gutersloh.jpg">
   <img src="mia_5028455_gutersloh.jpg">
 </figure>
 
 <figure id="lucretia">
   <img src="lucretia.jpg">
   <!-- <img src="//api.artsmia.org/images/529/1000/medium.jpg"> -->
+  <img src="0044_00lucretia.jpg">
   <img src="mia_5013814_Lucretia.jpg">
 </figure>
 
-<figure id="?">
-  <img src="130222_mia338_6006333.jpg">
-  <img src="mia_5027509.jpg">
-</figure>
+<!-- <figure id="?"> -->
+<!--   <img src="130222_mia338_6006333.jpg"> -->
+<!--   <img src="mia_5027509.jpg"> -->
+<!-- </figure> -->
