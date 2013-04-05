@@ -1,0 +1,41 @@
+<style>
+  figure {
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto 1em auto;
+    min-height: 100vh;
+  }
+  figure img {
+    max-height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0.5;
+    transition: all .2s 0.1s linear;
+  }
+  figure:hover img, figure:target img {
+    opacity: 1;
+    margin-left: -51%;
+  }
+  figure:hover img + img, figure:target img + img {
+    margin-left: 51%;
+  }
+
+</style>
+
+<figure id="gutersloh">
+  <img src="gutersloh.jpg">
+  <!-- <img src="//api.artsmia.org/images/10219/1000/medium.jpg"> -->
+  <img src="mia_5028455_gutersloh.jpg">
+</figure>
+
+<figure id="lucretia">
+  <img src="lucretia.jpg">
+  <!-- <img src="//api.artsmia.org/images/529/1000/medium.jpg"> -->
+  <img src="mia_5013814_Lucretia.jpg">
+</figure>
+
+<figure id="?">
+  <img src="130222_mia338_6006333.jpg">
+  <img src="mia_5027509.jpg">
+</figure>
