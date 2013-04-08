@@ -1,42 +1,44 @@
 <style>
   figure {
     position: relative;
-    min-height: 200vh;
   }
-  figure img {
-    max-height: 100vh;
-    position: absolute;
-    top: 0; left: 0;
-    width: 70%
-    width: auto;
-    transition: all 2.2s 0.1s linear;
-    z-index: 1;
-  }
-  figure > img:hover { z-index: 0; opacity: 0; }
-  figure img + img {
-    z-index: 2;
-  }
-  figure > img + img:hover { z-index: 0; opacity: 0; }
-  figure img + img + img {
-    z-index: 1;
+  figure div {
+    max-width: 70%;
+    min-height: 200%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    display: block;
   }
 </style>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
 
 <figure id="gutersloh">
-  <img src="gutersloh.jpg">
+  <figcaption><h1>Gutersloh</h1></figcaption>
+  <div src="gutersloh.jpg"></div>
   <!-- <img src="//api.artsmia.org/images/10219/1000/medium.jpg"> -->
-  <img src="0044_00gutersloh.jpg">
-  <img src="mia_5028455_gutersloh.jpg">
+  <div src="0044_00gutersloh.jpg"></div>
+  <div src="mia_5028455_gutersloh.jpg"></div>
 </figure>
 
 <figure id="lucretia">
-  <img src="lucretia.jpg">
+  <figcaption><h1>Lucretia</h1></figcaption>
+  <div src="lucretia.jpg"></div>
   <!-- <img src="//api.artsmia.org/images/529/1000/medium.jpg"> -->
-  <img src="0044_00lucretia.jpg">
-  <img src="mia_5013814_Lucretia.jpg">
+  <div src="0044_00lucretia.jpg"></div>
+  <div src="mia_5013814_Lucretia.jpg"></div>
 </figure>
 
 <!-- <figure id="?"> -->
 <!--   <img src="130222_mia338_6006333.jpg"> -->
 <!--   <img src="mia_5027509.jpg"> -->
 <!-- </figure> -->
+
+<script>
+window.addEventListener('load', function() {
+  _.each(document.querySelectorAll('figure div'), function(img) {
+    img.style.backgroundImage = 'url(./'+img.getAttribute('src')+')'
+    console.log(img)
+  })
+})
+</script>
