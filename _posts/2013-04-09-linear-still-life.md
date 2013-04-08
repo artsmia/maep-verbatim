@@ -1,7 +1,8 @@
 ---
-title: Gutersloh
+title: Linear Still Life
+artist: William Scott
 images:
-  original: gutersloh.jpg
-  form: 0044_02-linear-still-life.jpg
-  allen: mia_5028455_gutersloh.jpg
+  original: 130222_mia338_6006333.jpg
+  form: 0044_002-linear-still-life.jpg
+  allen: mia_5027509.jpg 
 ---
