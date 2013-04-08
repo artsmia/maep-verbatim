@@ -1,35 +1,17 @@
-<html>
-<head>
-  <title>MAEP: Verbatim, Allen Brewer | Minneapolis Institute of Arts</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <figure id="gutersloh">
-    <img src="gutersloh.jpg">
-    <!-- <img src="//api.artsmia.org/images/10219/1000/medium.jpg"> -->
-    <img src="0044_00gutersloh.jpg">
-    <img src="mia_5028455_gutersloh.jpg">
-    <figcaption>
-      <h1>Portrait of Paris von Gutersloh</h1>
-      <blockquote>
-        Young accountant-looking man in chino-type pants + oxford shirt. Rust+orange+brown/red w/ gold hints is color scheme. He is sitting on a small sofa-type chair, hands up @ shoulder level. His eyes look a bit dazed + wild. The texture of the brush strokes has a little frenetic energy. His body + clothes are all outlined in black adding a crisp pronounced young energy. His ocean blue tie matches the chaotic energy that seems to border on the ??? of passion, frustration, youthful vigor + anger.
-        <cite>Cheryl, 1/17/13</cite>
-      </blockquote>
-  </figure>
+---
+layout: default
+title: INDEX
+---
 
-  <figure id="lucretia">
-    <img src="lucretia.jpg">
-    <!-- <img src="//api.artsmia.org/images/529/1000/medium.jpg"> -->
-    <img src="0044_00lucretia.jpg">
-    <img src="mia_5013814_Lucretia.jpg">
-    <figcaption>
-      <h1>Lucretia</h1>
-    </figcaption>
-  </figure>
+{% for work in site.posts %}
+<figure id="{{work.title}}">
+  <img src="{{work.images.original}}">
+  <img src="{{work.images.form}}">
+  <img src="{{work.images.allen}}">
+  <figcaption>
+    <h1>{{work.title}}</h1>
+    {{work.content}}
+  </figcaption>
+</figure>
+{% endfor %}
 
-  <!-- <figure id="?"> -->
-  <!--   <img src="130222_mia338_6006333.jpg"> -->
-  <!--   <img src="mia_5027509.jpg"> -->
-  <!-- </figure> -->
-</body>
-</html>
