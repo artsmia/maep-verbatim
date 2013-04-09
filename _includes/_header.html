@@ -6,6 +6,12 @@
     <source src="//maep.s3.amazonaws.com/2013/verbatim/brewer.mp4" type="video/mp4">
   </video>
 
+  <nav><ul>
+    {% for work in site.posts %}
+    <li><a href="#{{work.title}}">{{work.title}}</a></li>
+    {% endfor %}
+  </ul></nav>
+
   <section id="description">
     <p>Allen Brewer needs your help! The St. Paul artist is asking visitors to describe their favorite works of art in the MIA's collection. Blank forms will be distributed throughout the museum, upon which visitors can write about their favorite artworks. Or MIA fans can e-mail their descriptions directly to <a href="mailto:verbatim.brewer@gmail.com">verbatim.brewer@gmail.com</a>, or download the form: <a href="http://artsmia.org/UserFiles/File/userfiles/exhibitions/2013/verbatim-form.pdf">Allen Brewer Verbatim Form</a>.</p>
     <p>He'll collect these short comments and take them back to his studio to inspire new paintings, drawings, and sculptures. The number of works in the gallery will increase during the show, as new works are added every two weeks. "Verbatim" promises to be a fascinating study of the differences between seeing and writing, and an exploration of the limits of language with regard to art objects. Brewer recently exhibited his work as part of the EVA International Biennial in Ireland and is visiting professor at the Minneapolis College of Art and Design.</p>
