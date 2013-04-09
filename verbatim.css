@@ -33,3 +33,9 @@ figcaption blockquote { opacity: 0; }
 figure:hover figcaption * { opacity: 1; }
 figure:hover figcaption { -webkit-transform: translateY(0); }
 
+header {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+header video { width: 100%; }
