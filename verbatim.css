@@ -39,3 +39,27 @@ header {
   margin: 0 auto;
 }
 header video { width: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: myriad-pro, "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+body {
+  font-family: garamond-premier-pro, "garamond-premier-pro", Garamond, Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+  font-weight: 300;
+  color: #444;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 0;
+  line-height: 1.5em;
+}
+header section {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+a {
+  color: #1788a3;
+}
