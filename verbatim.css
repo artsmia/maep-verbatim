@@ -28,9 +28,18 @@ figure:hover img + img + img, figure:target img + img + img {
 }
 
 figcaption { -webkit-transform: translateY(-26rem); transition: all .2s ease-in; }
-figcaption h1 { margin-left: 2.5rem; opacity: 0.5; }
+figure h1 {
+  position: absolute;
+  margin-left: 11%;
+  font-size: 3vw;
+  opacity: 0.5;
+  line-height: 1em;
+  z-index: 1;
+  transition: background-color 0s .2s ease-out;
+}
+figure:hover h1 { background-color: white; }
 figcaption blockquote { opacity: 0; }
-figure:hover figcaption *, figure:target figcaption * { opacity: 1; }
+figure:hover h1, figure:hover figcaption *, figure:target figcaption * { opacity: 1; }
 figure:hover figcaption, figure:target figcaption { -webkit-transform: translateY(0); }
 
 header {

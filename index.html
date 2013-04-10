@@ -6,11 +6,11 @@ title: INDEX
 
 {% for work in site.posts %}
 <figure id="{{work.title}}">
+  <h1>{{work.title}}</h1>
   <img src="img/{{work.images.allen}}">
   <img src="img/{{work.images.form}}">
   <img src="img/{{work.images.original}}">
   <figcaption>
-    <h1>{{work.title}}</h1>
     {{work.content}}
   </figcaption>
 </figure>
