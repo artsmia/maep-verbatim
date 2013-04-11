@@ -13,17 +13,17 @@ figure img:first-of-type, figure img:last-of-type {
   position: absolute;
   top: 0; left: 0;
 }
-figure:hover, figure:target {
+figure.open, figure:hover, figure:target {
   max-width: 33%;
 }
-figure:hover img, figure:target img {
+figure.open img, figure:hover img, figure:target img {
   opacity: 1;
   margin-left: -100%;
 }
-figure:hover img + img, figure:target img + img {
+figure.open img + img, figure:hover img + img, figure:target img + img {
   margin-left: 0%;
 }
-figure:hover img + img + img, figure:target img + img + img {
+figure.open img + img + img, figure:hover img + img + img, figure:target img + img + img {
   margin-left: 100%;
 }
 
@@ -37,10 +37,10 @@ figure h1 {
   z-index: 1;
   transition: background-color 0s .2s ease-out;
 }
-figure:hover h1 { background-color: white; }
+figure.open h1, figure:hover h1, figure:target h1 { background-color: white; }
 figcaption blockquote { opacity: 0; }
-figure:hover h1, figure:hover figcaption *, figure:target figcaption * { opacity: 1; }
-figure:hover figcaption, figure:target figcaption { -webkit-transform: translateY(0); }
+figure.open h1, figure:hover h1, figure:target h1, figure.open figcaption *, figure:hover figcaption *, figure:target figcaption * { opacity: 1; }
+figure.open figcaption, figure:hover figcaption, figure:target figcaption { -webkit-transform: translateY(0); }
 
 header {
   width: 100%;
