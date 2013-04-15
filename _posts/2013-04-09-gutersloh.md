@@ -1,4 +1,5 @@
 ---
+published: true
 title: Portrait of Paris Von Gutersloh
 artist: Egon Schiele
 year: 1918

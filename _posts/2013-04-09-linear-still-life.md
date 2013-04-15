@@ -1,4 +1,5 @@
 ---
+published: true
 title: Linear Still Life
 artist: William Scot
 year: 1973
