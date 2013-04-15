@@ -49,7 +49,7 @@ header {
   padding-bottom: 2em;
   background: rgb(200, 200, 200)
 }
-header video { width: 100%; }
+header video { width: 100%; min-height: 13%; }
 
 /* nav { max-width: 40em; margin: 0 auto; } */
 nav ul { list-style: none; text-align: center; }
