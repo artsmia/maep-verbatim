@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync --exclude tmp --archive --verbose _site/ /Volumes/d\$/WebSites/artsmia-redesign/maep/verbatim/
