@@ -1,6 +1,8 @@
 ---
 title: Portrait of Paris Von Gutersloh
-artist:
+artist: Egon Schiele
+year: 1918
+gallery: 377
 images:
   original: mia_5028455_gutersloh.jpg
   form: 0044_00gutersloh.jpg

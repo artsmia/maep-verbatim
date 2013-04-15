@@ -26,6 +26,13 @@ figure.open img + img, figure:hover img + img, figure:target img + img {
 figure.open img + img + img, figure:hover img + img + img, figure:target img + img + img {
   transform: translate3d(100%, 0, 0);
 }
+figcaption .credit, figcaption .credit, figcaption .credit {
+  opacity: 0.5;
+  text-align: center;
+}
+figure.open figcaption .credit, figure:hover figcaption .credit, figure:target figcaption .credit {
+  opacity: 1;
+}
 
 figcaption { -webkit-transform: translateY(-26rem); transition: all .2s ease-in; }
 figure h1 {
