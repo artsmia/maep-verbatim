@@ -6,8 +6,11 @@ NETWORK:
 
 CACHE:
 index.html
-verbatim.js
+js/verbatim.js
+js/prefixfree.min.js
+js/hammer.min.js
 verbatim.css
+
 img/0044_002-linear-still-life.jpg
 img/0044_004-two-women.jpg
 img/0044_00gutersloh.jpg
