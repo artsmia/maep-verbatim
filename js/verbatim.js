@@ -51,3 +51,14 @@ h.on("pinchin", function(event) {
 h.on("pinchout", function(event) {
   touched(function(fig) { fig.open() })
 });
+
+// http://stackoverflow.com/questions/12556593/determining-a-page-is-outdated-on-github-pages
+window.addEventListener('load', function(e) {
+  window.applicationCache.addEventListener('updateready', function(e) {
+    if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+      console.log('reloading from new app cache');
+      window.applicationCache.swapCache();
+      window.location.reload();
+    }
+  }, false);
+}, false);
