@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Linear Still Life
 artist: William Scott
 year: 1973
