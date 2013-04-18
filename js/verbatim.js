@@ -31,20 +31,20 @@ function Figure(element) {
 }
 
 Figure.prototype.open = function() {
-  Figure.closeAll()
+  Figure.closeOthers()
   history.pushState({}, '', '#' + this.element.getAttribute('id'))
   this.element.classList.add('open')
 }
 Figure.prototype.close = function() {
   this.element.classList.remove('open')
 }
-Figure.closeAll = function() {
-  history.replaceState({}, '', '#');
+Figure.closeOthers = function() {
+  history.replaceState({}, '', '');
   [].forEach.call(document.querySelectorAll("figure.open"), function(fig) {
-    (new Figure(fig)).close()
+    console.log(this.element, fig)
+    if(fig != this.element) (new Figure(fig)).close()
   })
 }
-
 
 h.on("touch", function(event) {
   touched(function(fig) { fig.open() })
