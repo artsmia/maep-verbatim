@@ -1,7 +1,13 @@
 ---
-published: false
+published: true
 title: Soundsuit
-artist: Nick CaveL
+artist: Nick Cave
+year: 2010
+gallery: 275
+images:
+  original: cavesoundsuit.jpg
+  form: soundsuit_form.jpg
+  allen: allenssoundsuit.jpg
 ---
 
 > A life-sized human form- a sculpture- is completely covered in
