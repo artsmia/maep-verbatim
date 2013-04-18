@@ -4,6 +4,7 @@ title: INDEX
 ---
 {% include _header.html %}
 
+<section id="works">
 {% for work in site.posts %}
 <figure id="{{work.title}}">
   <h1>{{work.title}}</h1>
@@ -17,4 +18,4 @@ title: INDEX
   </figcaption>
 </figure>
 {% endfor %}
-
+</section>

@@ -1,4 +1,10 @@
-var h = Hammer(document)
+var works = document.querySelector("#works")
+var h = Hammer(works)
+works.addEventListener("click", function(ev) {
+  if(debug) console.log('click')
+  ev.preventDefault();
+}, false);
+
 var debug = window.location.host.match(/local/)
 
 var figure = function(element) {
