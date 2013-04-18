@@ -51,12 +51,12 @@ figure.open figcaption, figure:hover figcaption, figure:target figcaption { -web
 
 header {
   width: 100%;
-  max-width: 1280px;
   margin: 0 auto 2em auto;
   padding-bottom: 2em;
-  background: rgb(200, 200, 200)
+  background: url(img/logo-header.jpg) repeat-x;
 }
-header video { width: 100%; min-height: 13%; }
+header > * { max-width: 1280px; }
+header video { width: 100%; min-height: 13%; margin: 47px auto 0 auto; }
 
 /* nav { max-width: 40em; margin: 0 auto; } */
 nav ul { list-style: none; text-align: center; }

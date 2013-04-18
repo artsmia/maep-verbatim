@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v-3, Tue Apr 16 2013 13:17:21
+# v-6, Thu Apr 18 16:14:42 CDT 2013
 
 NETWORK:
 *
@@ -11,6 +11,7 @@ js/prefixfree.min.js
 js/hammer.min.js
 verbatim.css
 
+img/logo-header.jpg
 img/0044_002-linear-still-life.jpg
 img/0044_004-two-women.jpg
 img/0044_00gutersloh.jpg
