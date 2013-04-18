@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Linear Still Life
 artist: William Scott
 year: 1973
@@ -20,4 +20,4 @@ images:
 > to the left of the center line is an oval which drips from the top of
 > the work by a thin black outline. The piece is framed with a thin
 > silver frame and black lattice.
-> <cite>Katie Van Zante describing “Linear Still Life” by William Scot, 1/17/13</cite>
+> <cite>Katie Van Zante describing “Linear Still Life” by William Scott, 1/17/13</cite>
