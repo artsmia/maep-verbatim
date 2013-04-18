@@ -2,10 +2,10 @@
 published: true
 title: Adaptation II 
 artist: Jaime Okuma, designed by Christian Louboutin
-year:2012
+year: 2012
 gallery: 261
 images:
-  original:adaptationiiokuma.jpg
+  original: adaptationiiokuma.jpg
   form: AdaptationII_form.jpg
   allen: allensadaptation.jpg
 ---
