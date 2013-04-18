@@ -1,7 +1,13 @@
 ---
-published: false
+published: true
 title: Portrait of Paris von Gütersloh
 artist: Egon Schiele
+year: 1918
+gallery: 377
+images:
+  original: mia_5028455_gutersloh.jpg
+  form: 0044_00gutersloh.jpg
+  allen: gutersloh.jpg
 ---
 
 > Young accountant-looking man in chino-type pants + oxford shirt. Rust +
@@ -12,4 +18,4 @@ artist: Egon Schiele
 > pronounced young energy. His ocean blue tie matches the chaotic energy
 > that seems to border on the edges of passion, frustration, youthful
 > vigor, and anger.
-> - Cheryl Dornfeld describing “Portrait of Paris von Gütersloh” by Egon Schiele, 1/17/13
+> <cite>Cheryl Dornfeld describing “Portrait of Paris von Gütersloh” by Egon Schiele, 1/17/13</cite>

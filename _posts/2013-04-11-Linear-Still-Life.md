@@ -1,7 +1,13 @@
 ---
-published: false
+published: true
 title: Linear Still Life
-artist: William Scot
+artist: William Scott
+year: 1973
+gallery: 373
+images:
+  original: 130222_mia338_6006333.jpg
+  form: 0044_002-linear-still-life.jpg
+  allen: mia_5027509.jpg
 ---
 
 > This rectangle painting is horizontally place with only 7 objects on a
@@ -14,4 +20,4 @@ artist: William Scot
 > to the left of the center line is an oval which drips from the top of
 > the work by a thin black outline. The piece is framed with a thin
 > silver frame and black lattice.
-> -Katie Van Zante describing “Linear Still Life” by William Scot, 1/17/13
+> <cite>Katie Van Zante describing “Linear Still Life” by William Scot, 1/17/13</cite>
