@@ -42,7 +42,7 @@ figure h1 {
   opacity: 0.5;
   line-height: 1em;
   z-index: 1;
-  transition: background-color 0s .2s ease-out;
+  transition: background-color 0s ease-out;
 }
 figure.open h1, figure:hover h1, figure:target h1 { background-color: white; }
 figcaption blockquote { opacity: 0; }
