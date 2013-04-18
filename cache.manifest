@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v-6, Thu Apr 18 16:14:42 CDT 2013
+# v-7 Thu Apr 18 16:33:54 CDT 2013
 
 NETWORK:
 *
@@ -12,18 +12,24 @@ js/hammer.min.js
 verbatim.css
 
 img/logo-header.jpg
-img/0044_002-linear-still-life.jpg
-img/0044_004-two-women.jpg
-img/0044_00gutersloh.jpg
-img/0044_00lucretia.jpg
-img/130222_mia338_6006325.jpg
-img/130222_mia338_6006333.jpg
-img/gutersloh.jpg
-img/lucretia.jpg
-img/mia_5013814_Lucretia.jpg
-img/mia_5018986.jpg
-img/mia_5027509.jpg
-img/mia_5028455_gutersloh.jpg
+img/small/0044_002-linear-still-life.jpg
+img/small/0044_004-two-women.jpg
+img/small/0044_00gutersloh.jpg
+img/small/0044_00lucretia.jpg
+img/small/130222_mia338_6006325.jpg
+img/small/130222_mia338_6006333.jpg
+img/small/gutersloh.jpg
+img/small/lucretia.jpg
+img/small/mia_5013814_Lucretia.jpg
+img/small/mia_5018986.jpg
+img/small/mia_5027509.jpg
+img/small/mia_5028455_gutersloh.jpg
+img/small/AdaptationII_form.jpg
+img/small/adaptationiiokuma.jpg
+img/small/allensadaptation.jpg
+img/small/allenssoundsuit.jpg
+img/small/cavesoundsuit.jpg
+img/small/soundsuit_form.jpg
 
 vid/brewer.ipad.mp4
 vid/poster.jpg
