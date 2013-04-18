@@ -1,7 +1,7 @@
 ---
 published: false
 title: Soundsuit
-artist: Nick Cave
+artist: Nick CaveL
 ---
 
 > A life-sized human form- a sculpture- is completely covered in
