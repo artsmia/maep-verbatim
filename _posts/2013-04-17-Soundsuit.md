@@ -14,4 +14,4 @@ artist: Nick Cave
 > of the curving poles are 40 or so colorful, antique toys-
 > jack-in-the-boxes, bells, drums – all small scary garish children’s
 > instruments. it feels like a circus and a grandma’s living room.
-> -Alyssa Lund describing “Soundsuit” by Nick Cave, 1/17/13
+> <cite>-Alyssa Lund describing “Soundsuit” by Nick Cave, 1/17/13</cite>

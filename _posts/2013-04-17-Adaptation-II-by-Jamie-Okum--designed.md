@@ -9,4 +9,4 @@ artist: Christian Louboutin
 > blue gold, +white beads, red feathers, tan leather, and gold sequins on
 > a 6” high heeled shoes with 3”platform und the toes. Very sparkly. The
 > feel like fun.
-> -Anonymous describing “Adaptation II” by Jamie Okum, designed by Christian Louboutin, 2/24/13
+> <cite>-Anonymous describing “Adaptation II” by Jamie Okum, designed by Christian Louboutin, 2/24/13</cite>
