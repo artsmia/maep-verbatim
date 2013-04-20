@@ -53,10 +53,18 @@ header {
   width: 100%;
   margin: 0 auto 2em auto;
   padding-bottom: 2em;
-  background: url(img/logo-header.jpg) repeat-x;
+  max-width: 1280px;
 }
-header > * { max-width: 1280px; }
-header video { width: 100%; min-height: 13%; margin: 47px auto 0 auto; }
+header video { width: 100%; min-height: 13%; margin-top: 47px; }
+header:before {
+  position: absolute;
+  top: 0; left: 0;
+  display: block;
+  width: 100%;
+  height: 47px;
+  background: url(img/logo-header.jpg) repeat-x;
+  content: " ";
+}
 
 /* nav { max-width: 40em; margin: 0 auto; } */
 nav ul { list-style: none; text-align: center; }
