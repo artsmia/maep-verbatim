@@ -58,8 +58,14 @@ h.on("pinchout", function(event) {
   touched(function(fig) { fig.open() })
 });
 
-// http://stackoverflow.com/questions/12556593/determining-a-page-is-outdated-on-github-pages
+function swapInBigImages() {
+  [].forEach.call(document.querySelectorAll("figure img"), function(img) {
+    img.setAttribute('src', img.getAttribute('src').replace('/small/', '/big/'))
+  })
+}
+
 window.addEventListener('load', function(e) {
+  // http://stackoverflow.com/questions/12556593/determining-a-page-is-outdated-on-github-pages
   window.applicationCache.addEventListener('updateready', function(e) {
     if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
       console.log('reloading from new app cache');
@@ -67,4 +73,6 @@ window.addEventListener('load', function(e) {
       window.location.reload();
     }
   }, false);
+
+  if(window.innerWidth > 1024) swapInBigImages()
 }, false);
