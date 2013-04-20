@@ -21,12 +21,15 @@ figure.open, figure:hover, figure:target {
 }
 figure.open img, figure:hover img, figure:target img {
   opacity: 1;
+  -moz-transform: translate(-100%);
   transform: translate3d(-100%, 0, 0);
 }
 figure.open img + img, figure:hover img + img, figure:target img + img {
+  -moz-transform: translate(0);
   transform: translate3d(0, 0, 0);
 }
 figure.open img + img + img, figure:hover img + img + img, figure:target img + img + img {
+  -moz-transform: translate(100%);
   transform: translate3d(100%, 0, 0);
 }
 figcaption .credit, figcaption .credit, figcaption .credit {
