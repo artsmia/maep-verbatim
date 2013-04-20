@@ -13,10 +13,9 @@ figure img:first-of-type, figure img:last-of-type {
   position: absolute;
   top: 0; left: 0;
 }
-figure img:first-of-type {
-  z-index: 3;
-}
+figure img:first-of-type { z-index: 3; }
 figure img:last-of-type { z-index: 2; }
+
 figure.open, figure:hover, figure:target {
   max-width: 33%;
 }
