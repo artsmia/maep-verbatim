@@ -13,6 +13,10 @@ figure img:first-of-type, figure img:last-of-type {
   position: absolute;
   top: 0; left: 0;
 }
+figure img:first-of-type {
+  z-index: 3;
+}
+figure img:last-of-type { z-index: 2; }
 figure.open, figure:hover, figure:target {
   max-width: 33%;
 }
@@ -96,3 +100,29 @@ header section {
 a {
   color: #1788a3;
 }
+
+/*
+ * fix html5 elements in firefox 3 and IE
+ * https://github.com/necolas/normalize.css
+ */
+article, aside, details, figcaption, figure, footer, header,
+hgroup, nav, section, summary { display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio, canvas, video { display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) { display: none; height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] { display: none; }
