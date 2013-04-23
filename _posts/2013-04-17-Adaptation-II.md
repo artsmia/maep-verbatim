@@ -1,7 +1,7 @@
 ---
 published: true
 title: Adaptation II 
-artist: Jaime Okuma, designed by Christian Louboutin
+artist: Jamie Okuma, shoes designed by Christian Louboutin
 year: 2012
 gallery: 261
 images:
@@ -15,4 +15,4 @@ images:
 > blue gold, +white beads, red feathers, tan leather, and gold sequins on
 > a 6” high heeled shoes with 3”platform und the toes. Very sparkly. The
 > feel like fun.
-> <cite>-Anonymous describing “Adaptation II” by Jamie Okuma, designed by Christian Louboutin, 2/24/13</cite>
+> <cite>-Anonymous describing “Adaptation II” by Jamie Okuma, shoes designed by Christian Louboutin, Paris, 2/24/13</cite>
