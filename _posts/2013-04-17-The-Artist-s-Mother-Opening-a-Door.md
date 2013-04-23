@@ -11,4 +11,4 @@ artist: Jean Edouard Vuillard
 > Woman is holding door open, neck crooked to see who’s there. Room
 > behind the open door is bright green – background behind woman No
 > details- color blocking.
-> -Annie Dressen describing “The Artist’s Mother Opening a Door”  by Jean Edouard Vuillard, 2/21/13
+> -Annie Dressen describing “The Artist’s Mother Opening a Door” by Jean Edouard Vuillard, 2/21/13
