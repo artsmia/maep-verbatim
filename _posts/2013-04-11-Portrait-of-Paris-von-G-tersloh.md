@@ -1,6 +1,6 @@
 ---
 published: true
-title: Portrait of Paris von Gütersloh
+title: Portrait of Paris von Güttersloh
 artist: Egon Schiele
 year: 1918
 gallery: 377
@@ -18,4 +18,4 @@ images:
 > pronounced young energy. His ocean blue tie matches the chaotic energy
 > that seems to border on the edges of passion, frustration, youthful
 > vigor, and anger.
-> <cite>Cheryl Dornfeld describing “Portrait of Paris von Gütersloh” by Egon Schiele, 1/17/13</cite>
+> <cite>Cheryl Dornfeld describing “Portrait of Paris von Güttersloh” by Egon Schiele, 1/17/13</cite>
